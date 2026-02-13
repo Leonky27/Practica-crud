@@ -51,9 +51,11 @@ php artisan key:generate
 ### 5️⃣ Configurar base de datos
 
 Editar el archivo .env y configurar:
+´´´
 DB_DATABASE=crud
 DB_USERNAME=
 DB_PASSWORD=
+´´´
 Luego crear la base de datos en Postgre.
 
 ### 6️⃣ Ejecutar migraciones
