@@ -56,7 +56,7 @@ DB_DATABASE=crud
 DB_USERNAME=
 DB_PASSWORD=
 ````
-Luego crear la base de datos en Postgre.
+Luego crear la base de datos en Postgre y exportar el archivo que esta en la carpeta backup_base_datos en pgAdmin 4
 
 ### 6️⃣ Ejecutar migraciones
 ````
