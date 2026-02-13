@@ -37,31 +37,32 @@ Entrar en la carpeta del proyecto:
 cd nombre-del-proyecto
 
 ### 2️⃣ Instalar dependencias de PHP
-
+````
 composer install
-
+````
 ### 3️⃣ Crear archivo de entorno
 
 cp .env.example .env
 
 ### 4️⃣ Generar clave de la aplicación
-
+````
 php artisan key:generate
-
+````
 ### 5️⃣ Configurar base de datos
 
 Editar el archivo .env y configurar:
-´´´
+````
 DB_DATABASE=crud
 DB_USERNAME=
 DB_PASSWORD=
-´´´
+````
 Luego crear la base de datos en Postgre.
 
 ### 6️⃣ Ejecutar migraciones
-
+````
 php artisan migrate
-
+````
 ### 7️⃣ Ejecutar el proyecto
-
+````
 composer run dev
+````
