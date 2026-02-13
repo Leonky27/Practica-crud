@@ -19,7 +19,7 @@ Antes de ejecutar el proyecto, asegúrese de tener instalado:
 
 - PHP
 - Composer
-- MySQL
+- PostgreSQL
 - Node.js y NPM
 - Servidor local (XAMPP, Laragon o similar)
 
