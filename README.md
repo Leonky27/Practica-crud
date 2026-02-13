@@ -30,20 +30,20 @@ Antes de ejecutar el proyecto, asegúrese de tener instalado:
 Siga estos pasos para ejecutar el proyecto en su entorno local:
 
 ### 1️⃣ Clonar el repositorio
-
+````
 git clone https://github.com/Leonky27/Practica-crud.git
-
+````
 Entrar en la carpeta del proyecto:
-cd nombre-del-proyecto
+- cd nombre-del-proyecto
 
 ### 2️⃣ Instalar dependencias de PHP
 ````
 composer install
 ````
 ### 3️⃣ Crear archivo de entorno
-
+````
 cp .env.example .env
-
+````
 ### 4️⃣ Generar clave de la aplicación
 ````
 php artisan key:generate
